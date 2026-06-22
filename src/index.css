@@ -13,7 +13,7 @@ body {
   background-color: black;
 }
 .PaentNav{
-  padding: 2vw;
+  padding: 2vw 10VW;
 }
 .navbar {
   display: grid;
@@ -21,8 +21,10 @@ body {
     "LOGO NAV NAV NAV  HAMBURGER"
     "LOGO SERVICE SERVICE GETINTOUCH GETINTOUCH";
     overflow: hidden;
+  
 }
 .div1 {
+  padding: 3vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
   grid-area: LOGO;
@@ -34,6 +36,11 @@ body {
   border-bottom-left-radius: 10px;
   border-start-start-radius: 10px;
 
+}
+.div1 img{
+  object-fit: cover;
+  object-position: center;
+  width: 2.6vw;
 }
 .div2 {
   background-color: green;
