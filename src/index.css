@@ -311,3 +311,48 @@ margin-right: auto;
   padding: 1vw 0;
   border-radius: 2vw;
 }
+.Section3{
+  margin-top: 10vw;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("src/assets/bgimage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 5vw;
+}
+.Section3 h1{
+  font-size: 7vw;
+  line-height: 1;
+}
+.Section3 p{
+  margin-top: 2.6vw;
+ width:53%;
+ text-align: center;
+ line-height: 1.6;
+ font-size: 1.4vw;
+}
+.Section3 button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6vw;
+  padding: 1vw 2vw;
+  border-radius: 35px;
+  border: none;
+  background-color: white;
+  font-size: 1.2vw;
+  margin-top: 2vw;
+  
+
+}

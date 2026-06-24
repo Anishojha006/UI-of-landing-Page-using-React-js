@@ -4,6 +4,7 @@ import Section from './components/Section'
 import Ourservices from './components/Ourservices'
 import Section2 from './components/Section2'
 import OurTeam from './components/OurTeam'
+import Section3 from './components/Section3'
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
       <Ourservices/>
       <Section2/>
       <OurTeam/>
+      <Section3/>
+      <Navbar/>
     </div>
   )
 }
