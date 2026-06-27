@@ -46,16 +46,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1vw;
   border: 1px solid rgb(92, 90, 90);
   border-right: 0;
   border-bottom-left-radius: 20px;
   border-start-start-radius: 20px;
+}
+.div1>span{
+  font-size: 2vw;
 }
 
 .div1 img {
   object-fit: cover;
   object-position: center;
   width: 2.6vw;
+
 }
 
 .div2 {
@@ -72,6 +77,10 @@ body {
   border-right: 1px solid rgb(92, 90, 90);
   border-top-right-radius: 20px;
   grid-area: HAMBURGER;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vw;
 }
 
 .div4 {
@@ -153,7 +162,13 @@ body {
 #div10 {
   background-position: 100% 0;
 }
-
+.div4 .contact-Pages{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2vw;
+  padding: 0 2vw;
+}
 .customer-logo {
   display: flex;
   flex-direction: row;
@@ -353,6 +368,4 @@ margin-right: auto;
   background-color: white;
   font-size: 1.2vw;
   margin-top: 2vw;
-  
-
 }
